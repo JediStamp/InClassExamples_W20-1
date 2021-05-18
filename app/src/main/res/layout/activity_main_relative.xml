@@ -24,6 +24,7 @@
         android:layout_above="@id/button2"
         android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:text="@string/item3" />
 
 </RelativeLayout>

@@ -3,15 +3,17 @@ package com.example.inclassexamples_w20;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,11 +38,16 @@ public class MainActivity extends AppCompatActivity {
         btn.setText("New strings");
         btn.setOnClickListener( (click) ->  { btn.setText("You clicked me"); }  );
 
+        ImageButton iButton = findViewById(R.id.imgButton);
+//        AtomicInteger numClicks = new AtomicInteger();
+//        numClicks.set(0);
+//        iButton.setOnClickListener( (btn2) -> { numClicks.getAndIncrement();} );
+
 
         CheckBox cb = findViewById(R.id.checkb);
         cb.setOnCheckedChangeListener( (compoundButton, b) -> {
 
-          //  Toast.makeText(MainActivity.this, "Checkbox is " + b, Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "Checkbox is " + b, Toast.LENGTH_LONG).show();
             Snackbar.make(theEdit, "Checkbox is " + b, Snackbar.LENGTH_LONG)
                     .setAction("Undo", click-> compoundButton.setChecked( !b ))
                     .show();

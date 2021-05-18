@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">InClassExamples_W20</string>
-    <string name="hello"> Hello french people</string>
-
-    </resources>
+    <string name="hello">Bonjour Button</string>
+    <string name="imgButton">Button d image</string>
+    <string name="firstText">Ici le Text View</string>
+    <string name="hint"> Cet hint disparetre </string>
+    <string name="checkbox"> Ceci est un checkbox</string>
+    <string name="switchItUp">Ceci est un switch</string>
+    <string name="radio"> Radio Button</string>
+    <string name="item1">1</string>
+    <string name="item2">2</string>
+    <string name="item3">3</string>
+    <string name="item4">4</string>
+    <string name="item5">5</string>
+    <string name="item6">6</string>
+    <string name="item7">7</string>
+</resources>

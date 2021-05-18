@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">InClassExamples_W20</string>
-    <string name="hello"> Hello world</string>
-    <string name="checkbox"> This is checkbox</string>
+    <string name="hello">Hello Button</string>
+    <string name="imgButton">Picture Button</string>
+    <string name="firstText">This is the Text View</string>
     <string name="hint"> This hint disappears </string>
+    <string name="checkbox"> This is checkbox</string>
     <string name="switchItUp">This is a switch</string>
-    <string name="radio"> Radio Buttion</string>
+    <string name="radio"> Radio Button</string>
     <string name="item1">1</string>
     <string name="item2">2</string>
     <string name="item3">3</string>
